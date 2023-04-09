@@ -1,0 +1,26 @@
+.card_container {
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid var(--card-container-border-color);
+    background-color: var(--card-container-bg-color);
+    
+    color: var(--card-container-text-color);
+    font-size: inherit;
+    line-height: inherit;
+    padding: 10px;
+
+}
+
+.card_header {
+    padding: 2px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.card_image {
+    position: relative;
+    min-height: 80%;
+    min-width: 100%;
+}
