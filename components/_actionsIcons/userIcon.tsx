@@ -9,6 +9,7 @@ export const UserImageIcon = memo(({ src = "" }: IUserImageIconProps) => {
             width={150}
             height={150}
             alt="user image"
+            className="rounded-full"
         />
     )
 })

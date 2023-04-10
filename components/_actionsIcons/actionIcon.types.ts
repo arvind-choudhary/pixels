@@ -11,6 +11,6 @@ interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
 }
 
 export interface ISearchIconProps extends IButtonProps {}
-export interface ICrossIconProps extends IButtonProps {}
+export interface ICrossIconProps extends IButtonProps { onClose?: (input: any) => void }
 export interface IUserImageIconProps extends ImageProps {}
-export interface IDownloadIconProps extends ImageProps { src: string; filename: string; }
+export interface IDownloadIconProps extends ImageProps { src?: string; filename?: string; }
